@@ -1,15 +1,37 @@
-Welcome to your new dbt project!
+# Title: [Data Analysis of Airbnb Berlin](http://insideairbnb.com/berlin/)
 
-### Using the starter project
 
+## Description: 
+Implementation of an ELT pipeline using dbt and Snowflake. Contains the following:
+- [x] Slowly Changing Dimensions(SCDs)
+- [x] Data Transformations
+- [x] Common Table Expressions(CTEs)
+- [x] dbt Models
+- [x] dbt Materialization
+- [x] dbt Tests
+- [x] dbt Documentation
+- [x] dbt Sources, Seeds, Snapshots
+- [x] dbt Hooks and Operations
+- [x] Jinja and Macros
+- [x] dbt Packages
+- [x] Analyses, Exposures
+- [x] dbt Seeds
+- [x] Data Visualization (Preset BI)
+- [x] Debugging tests in dbt
+
+## Tools Utilised
+- [x] Windows 10
+- [x] Snowflake
+- [x] Python
+- [x] dbt
+- [x] Preset business intelligence
+
+
+## Running the project
 Try running the following commands:
 - dbt run
 - dbt test
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Credits 
+* [Udemy course link](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
+* Udemy instructors: Zoltan C. Toth & Miklos Petridisz
