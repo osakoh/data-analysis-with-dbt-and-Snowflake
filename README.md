@@ -2,7 +2,7 @@
 
 
 ## Description: 
-Implementation of an ELT pipeline using dbt and Snowflake. Contains the following:
+Implementation of an ELT pipeline using dbt and Snowflake. Features the following:
 - [x] Slowly Changing Dimensions(SCDs)
 - [x] Data Transformations
 - [x] Common Table Expressions(CTEs)
@@ -19,19 +19,27 @@ Implementation of an ELT pipeline using dbt and Snowflake. Contains the followin
 - [x] Data Visualization (Preset BI)
 - [x] Debugging tests in dbt
 
-## Tools Utilised
+## Software/Tools Utilised
 - [x] Windows 10
-- [x] Snowflake
-- [x] Python
-- [x] dbt
-- [x] Preset business intelligence
+- [x] [Snowflake](https://www.snowflake.com/login/)
+- [x] [Python](https://www.python.org/downloads/release/python-3913/)
+- [x] [dbt](https://docs.getdbt.com/)
+- [x] [Preset business intelligence](https://preset.io/use-cases/internal-bi/)
 
 
 ## Running the project
-Try running the following commands:
-- dbt run
-- dbt test
+```
+# execute the compiled sql model files against the current target database 
+dbt run
+
+# runs tests defined on models, sources, snapshots, and seeds
+dbt test
+
+# rebuild incremental table
+dbt run --full-refresh
+```
+
 
 ## Credits 
 * [Udemy course link](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
-* Udemy instructors: Zoltan C. Toth & Miklos Petridisz
+* Udemy instructor's: Zoltan C. Toth & Miklos Petridisz
