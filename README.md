@@ -41,5 +41,4 @@ dbt run --full-refresh
 
 
 ## Credits 
-* [Udemy course link](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
-* Udemy instructor's: Zoltan C. Toth & Miklos Petridisz
+* [Udemy instructor's: Zoltan C. Toth & Miklos Petridisz](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
