@@ -29,13 +29,13 @@ Implementation of an ELT pipeline using dbt and Snowflake. Features the followin
 
 ## Running the project
 ```
-# execute the compiled sql model files against the current target database 
+# runs the SQL SELECT statements in the models using a materialization strategy
 dbt run
 
 # runs tests defined on models, sources, snapshots, and seeds
 dbt test
 
-# rebuild incremental table
+# rebuild incremental models
 dbt run --full-refresh
 ```
 
