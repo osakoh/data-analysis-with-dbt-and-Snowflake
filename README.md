@@ -37,6 +37,9 @@ dbt test
 
 # rebuild incremental models
 dbt run --full-refresh
+
+# load csv files located in the seeds directory into Snowflake
+dbt seed
 ```
 
 
