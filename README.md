@@ -40,6 +40,9 @@ dbt run --full-refresh
 
 # load csv files located in the seeds directory into Snowflake
 dbt seed
+
+# generates executable SQL from source model, test, and analysis files
+dbt compile
 ```
 
 
