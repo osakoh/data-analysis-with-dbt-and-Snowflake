@@ -1,6 +1,8 @@
 # Title: [Data Analysis of Airbnb Berlin](http://insideairbnb.com/berlin/)
+### _ELT data pipeline in Snowflake_
 
 
+---
 ## Description: 
 Implementation of an ELT pipeline using dbt and Snowflake. Features the following:
 - [x] Slowly Changing Dimensions(SCDs)
