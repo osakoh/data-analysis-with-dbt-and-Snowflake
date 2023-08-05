@@ -48,6 +48,9 @@ dbt compile
 
 # queries source tables and checks for freshness of those tables
 dbt source freshness
+
+# executes the snapshots defined in the snapshots directory
+dbt snapshot
 ```
 
 ---
