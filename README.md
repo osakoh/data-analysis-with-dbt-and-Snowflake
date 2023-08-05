@@ -5,20 +5,20 @@
 ---
 ## Description: 
 Implementation of an ELT pipeline using dbt and Snowflake. Features the following:
-- [x] Slowly Changing Dimensions(SCDs)
-- [x] Data Transformations
-- [x] Common Table Expressions(CTEs)
-- [x] dbt Models
-- [x] dbt Materialization
-- [x] dbt Tests
-- [x] dbt Documentation
-- [x] dbt Sources, Seeds, Snapshots
-- [x] dbt Hooks and Operations
-- [x] Jinja and Macros
-- [x] dbt Packages
-- [x] Analyses, Exposures
-- [x] dbt Seeds
-- [x] Data Visualization (Preset BI)
+- [x] Type - 2 slowly changing dimensions(SCDs)
+- [x] Data transformations
+- [x] Common table expressions(CTEs)
+- [x] dbt models
+- [x] dbt materialization
+- [x] dbt tests
+- [x] dbt documentation
+- [x] dbt sources, seeds, snapshots
+- [x] dbt hooks and operations
+- [x] Jinja and macros
+- [x] dbt packages
+- [x] Analyses and exposures
+- [x] dbt seeds
+- [x] Data visualization using Preset BI
 - [x] Debugging tests in dbt
 
 ## Software/Tools Utilised
