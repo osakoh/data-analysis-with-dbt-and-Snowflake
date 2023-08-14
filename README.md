@@ -69,9 +69,11 @@ dbt compile
 
 *Screenshots* 
 
-![Screenshots](img/graph1.png) | ![Screenshots](img/lineage-graph.png) 
+![Screenshots](img/barchart-main.jpg) | ![Screenshots](img/stackedchart-main.jpg) 
 -------------------------- | --------------------------
+![Screenshots](img/graph1.png) | ![Screenshots](img/lineage-graph.png) 
 
----
+
+
 ## Credits 
 * [Udemy instructor's: Zoltan C. Toth & Miklos Petridisz](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
