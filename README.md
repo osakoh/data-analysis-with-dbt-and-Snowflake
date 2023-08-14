@@ -71,7 +71,7 @@ dbt compile
 
 ![Screenshots](img/barchart-main.jpg) | ![Screenshots](img/stackedchart-main.jpg) 
 -------------------------- | --------------------------
-![Screenshots](img/graph1.png) | ![Screenshots](img/lineage-graph.png) 
+![Screenshots](img/dag-dashboard.png) | ![Screenshots](img/lineage-graph.png)
 
 
 
