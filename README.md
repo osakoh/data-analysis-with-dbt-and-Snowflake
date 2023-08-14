@@ -65,7 +65,7 @@ dbt docs generate
 
 *Screenshots* 
 
-![Screenshots](img/lineage-graph-wo.png) | ![Screenshots](img/lineage-graph.png) 
+![Screenshots](img/graph1.png) | ![Screenshots](img/lineage-graph.png) 
 -------------------------- | --------------------------
 
 ---
