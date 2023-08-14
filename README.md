@@ -39,6 +39,8 @@ dbt test
 
 # rebuild incremental models
 dbt run --full-refresh
+# rebuild incremental model(fct_reviews)
+dbt run --full-refresh --select fct_reviews
 
 # load csv files located in the seeds directory into Snowflake
 dbt seed
@@ -51,6 +53,12 @@ dbt source freshness
 
 # executes the snapshots defined in the snapshots directory
 dbt snapshot
+
+# install package(deps: dependencies)
+dbt deps
+
+# generate documentation
+dbt docs generate
 ```
 
 ---
