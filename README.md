@@ -34,8 +34,17 @@ Implementation of an ELT pipeline using dbt and Snowflake. Features the followin
 # runs the SQL SELECT statements in the models using a materialization strategy
 dbt run
 
+# debug connection, tests, validity of project file, dependencies etc
+dbt debug
+
 # runs tests defined on models, sources, snapshots, and seeds
 dbt test
+
+# run tests on a single model(dbt test --select <model_name>)
+dbt test --select dim_listings_with_hosts
+
+# run tests on a source
+dbt test --select source:airbnb.listings
 
 # rebuild incremental models
 dbt run --full-refresh
