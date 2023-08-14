@@ -39,6 +39,7 @@ dbt test
 
 # rebuild incremental models
 dbt run --full-refresh
+
 # rebuild incremental model(fct_reviews)
 dbt run --full-refresh --select fct_reviews
 
@@ -59,6 +60,9 @@ dbt deps
 
 # generate documentation
 dbt docs generate
+
+# generates executable SQL from source model, test, and analysis files. Store these compiled SQL files in the target/ directory of the project
+dbt compile
 ```
 
 ---
