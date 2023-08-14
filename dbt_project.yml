@@ -34,6 +34,9 @@ clean-targets: # directories to be removed by `dbt clean`
 models:
   airbnb_analytics:
     +materialized: view
+    # executed after a model/seed/snapshot is built
+    +post-hook:
+      - "GRANT SELECT ON {{ this }} TO ROLE REPORTER"
     dim:
       +materialized: table
     src:

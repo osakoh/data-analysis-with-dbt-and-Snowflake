@@ -39,6 +39,7 @@ dbt test
 
 # rebuild incremental models
 dbt run --full-refresh
+
 # rebuild incremental model(fct_reviews)
 dbt run --full-refresh --select fct_reviews
 
@@ -59,15 +60,23 @@ dbt deps
 
 # generate documentation
 dbt docs generate
+
+# serves the generated documentation locally on port 8080
+dbt docs serve
+
+# generates executable SQL from source model, test, and analysis files. Store these compiled SQL files in the target/ directory of the project
+dbt compile
 ```
 
 ---
 
 *Screenshots* 
 
-![Screenshots](img/graph1.png) | ![Screenshots](img/lineage-graph.png) 
+![Screenshots](img/barchart-main.jpg) | ![Screenshots](img/stackedchart-main.jpg) 
 -------------------------- | --------------------------
+![Screenshots](img/dag-dashboard.png) | ![Screenshots](img/lineage-graph.png)
 
----
+
+
 ## Credits 
 * [Udemy instructor's: Zoltan C. Toth & Miklos Petridisz](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
