@@ -61,6 +61,9 @@ dbt deps
 # generate documentation
 dbt docs generate
 
+# serves the generated documentation locally on port 8080
+dbt docs serve
+
 # generates executable SQL from source model, test, and analysis files. Store these compiled SQL files in the target/ directory of the project
 dbt compile
 ```
